@@ -6,8 +6,8 @@ import heroImage from "@/assets/hero-bg.jpg";
 import aiTrendsImg from "@/assets/blog-ai-trends.jpg";
 import riskMgmtImg from "@/assets/blog-risk-management.jpg";
 import mlImg from "@/assets/blog-machine-learning.jpg";
-import raiImg from "@/assets/blog-rai-governance.jpg";
-import riskAnalyticsImg from "@/assets/blog-risk-analytics.jpg";
+//import raiImg from "@/assets/blog-rai-governance.jpg";
+//import riskAnalyticsImg from "@/assets/blog-risk-analytics.jpg";
 
 const Home = () => {
   const skills = [
@@ -45,13 +45,13 @@ const Home = () => {
     {
       title: "Responsible AI Governance for Modern Enterprises",
       excerpt: "A practical approach to designing accountable, transparent, and risk-aware AI systems.",
-      image: raiImg,   // or reuse a neutral governance-themed image
+      image: riskMgmtImg,   // change image later
       slug: "ml-pipelines",
     },
     {
       title: "Advanced Risk Analytics with Machine Learning",
       excerpt: "How ML-driven models are transforming credit, fraud, operational, and regulatory risk decisioning.",
-      image: riskAnalyticsImg,
+      image: mlImg, // change these images later
       slug: "neural-architecture",
     },
   ];

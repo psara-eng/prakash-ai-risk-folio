@@ -6,11 +6,13 @@ import heroImage from "@/assets/hero-bg.jpg";
 import aiTrendsImg from "@/assets/blog-ai-trends.jpg";
 import riskMgmtImg from "@/assets/blog-risk-management.jpg";
 import mlImg from "@/assets/blog-machine-learning.jpg";
+import raiImg from "@/assets/blog-rai-governance.jpg";
+import riskAnalyticsImg from "@/assets/blog-risk-analytics.jpg";
 
 const Home = () => {
   const skills = [
     { icon: Brain, title: "Artificial Intelligence", description: "Responsible AI, AI Governance, Machine Learning, Deep Learning" },
-    { icon: Shield, title: "Risk Consulting", description: "Technology Risk Management, IT Resilience, Goverance, Compliance" },
+    { icon: Shield, title: "Risk Consulting", description: "Technology Risk Management, IT Resilience, Governance, Compliance" },
     { icon: Code, title: "Software Engineering", description: "Mainframe DevSecOps, BFSI and Fintech, Python, TensorFlow" },
     { icon: TrendingUp, title: "Data Analytics", description: "Predictive Modeling, Risk Analytics, Business Intelligence" },
   ];

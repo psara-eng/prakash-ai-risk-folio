@@ -9,10 +9,10 @@ import mlImg from "@/assets/blog-machine-learning.jpg";
 
 const Home = () => {
   const skills = [
-    { icon: Brain, title: "Artificial Intelligence", description: "Machine Learning, Deep Learning, Neural Networks" },
-    { icon: Shield, title: "Risk Management", description: "Risk Analysis, Mitigation Strategies, Compliance" },
-    { icon: Code, title: "Software Engineering", description: "Full-Stack Development, System Architecture" },
-    { icon: TrendingUp, title: "Data Analytics", description: "Predictive Modeling, Business Intelligence" },
+    { icon: Brain, title: "Artificial Intelligence", description: "Responsible AI, AI Governance, Machine Learning, Deep Learning" },
+    { icon: Shield, title: "Risk Consulting", description: "Technology Risk Management, IT Resilience, Goverance, Compliance" },
+    { icon: Code, title: "Software Engineering", description: "Mainframe DevSecOps, BFSI and Fintech, Python, TensorFlow" },
+    { icon: TrendingUp, title: "Data Analytics", description: "Predictive Modeling, Risk Analytics, Business Intelligence" },
   ];
 
   const featuredProjects = [
@@ -41,15 +41,15 @@ const Home = () => {
       slug: "ai-risk-management",
     },
     {
-      title: "Building Robust Machine Learning Pipelines",
-      excerpt: "Best practices for designing scalable and maintainable ML systems.",
-      image: mlImg,
+      title: "Responsible AI Governance for Modern Enterprises",
+      excerpt: "A practical approach to designing accountable, transparent, and risk-aware AI systems.",
+      image: raiImg,   // or reuse a neutral governance-themed image
       slug: "ml-pipelines",
     },
     {
-      title: "Deep Dive into Neural Architecture",
-      excerpt: "Understanding the fundamentals of modern neural network designs.",
-      image: riskMgmtImg,
+      title: "Advanced Risk Analytics with Machine Learning",
+      excerpt: "How ML-driven models are transforming credit, fraud, operational, and regulatory risk decisioning.",
+      image: riskAnalyticsImg,
       slug: "neural-architecture",
     },
   ];
@@ -69,11 +69,11 @@ const Home = () => {
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="mb-6 bg-gradient-hero bg-clip-text text-transparent animate-fade-in">
+            <h1 className="mb-6 text-5xl bg-gradient-hero bg-clip-text text-transparent animate-fade-in">
               Prakash Sarangi
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto animate-slide-up">
-              Software Engineer, AI & Risk Management Consultant
+              AI & Risk Management Consultant, Software Engineer, IT Resilience Expert
             </p>
             <p className="text-lg text-muted-foreground mb-10 max-w-2xl mx-auto">
               Specializing in cutting-edge artificial intelligence solutions, machine learning systems, 

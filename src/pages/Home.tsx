@@ -69,7 +69,7 @@ const Home = () => {
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="mb-6 bg-gradient-hero bg-clip-text text-transparent animate-fade-in">
+            <h1 className="mb-6 leading-tight bg-gradient-hero bg-clip-text text-transparent animate-fade-in">
               Prakash Sarangi
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto animate-slide-up">

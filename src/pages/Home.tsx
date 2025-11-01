@@ -70,7 +70,7 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative pt-20 pb-32">
+      <section className="relative pt-20 pb-32 overflow: visible">
         <div className="absolute inset-0 bg-gradient-hero opacity-10" />
         <div
           className="absolute inset-0 opacity-5"

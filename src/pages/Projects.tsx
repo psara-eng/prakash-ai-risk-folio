@@ -4,80 +4,65 @@ import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from "lucide-react";
 
 const Projects = () => {
-  const projects = [
-    {
-      title: "AI-Powered Risk Assessment Platform",
-      description: "Enterprise-grade machine learning system for real-time risk evaluation and predictive analytics. Processes large-scale financial data to identify potential risks and provide actionable insights.",
-      tags: ["Python", "TensorFlow", "React", "PostgreSQL", "AWS"],
-      category: "AI & Risk Management",
-      features: [
-        "Real-time risk scoring algorithms",
-        "Predictive analytics dashboard",
-        "Automated alert system",
-        "Compliance reporting module",
-      ],
-    },
-    {
-      title: "Neural Network Framework for Financial Modeling",
-      description: "Custom deep learning framework optimized for financial market analysis and prediction. Implements advanced neural architectures for time-series forecasting and pattern recognition.",
-      tags: ["PyTorch", "CUDA", "Python", "NumPy", "Pandas"],
-      category: "Machine Learning",
-      features: [
-        "Custom LSTM implementation",
-        "GPU-accelerated training",
-        "Model versioning system",
-        "Performance benchmarking tools",
-      ],
-    },
-    {
-      title: "Automated Compliance Monitoring System",
-      description: "NLP-based system for regulatory compliance monitoring and reporting. Analyzes documents, transactions, and communications to identify compliance issues automatically.",
-      tags: ["NLP", "Python", "Elasticsearch", "React", "Docker"],
-      category: "AI & Compliance",
-      features: [
-        "Document classification engine",
-        "Regulatory change detection",
-        "Automated report generation",
-        "Multi-language support",
-      ],
-    },
-    {
-      title: "Computer Vision Quality Control System",
-      description: "Deep learning solution for automated quality inspection in manufacturing. Uses computer vision to detect defects and anomalies with high accuracy.",
-      tags: ["Computer Vision", "TensorFlow", "Python", "OpenCV", "Kubernetes"],
-      category: "AI & Manufacturing",
-      features: [
-        "Real-time defect detection",
-        "Multi-camera integration",
-        "Statistical analysis dashboard",
-        "Training data annotation tool",
-      ],
-    },
-    {
-      title: "Predictive Maintenance ML Pipeline",
-      description: "End-to-end machine learning pipeline for predictive maintenance in industrial settings. Analyzes sensor data to predict equipment failures before they occur.",
-      tags: ["Machine Learning", "Python", "Apache Kafka", "Spark", "Azure"],
-      category: "Predictive Analytics",
-      features: [
-        "Time-series anomaly detection",
-        "Multi-sensor data fusion",
-        "Failure prediction models",
-        "Maintenance scheduling optimizer",
-      ],
-    },
-    {
-      title: "Intelligent Document Processing System",
-      description: "AI-powered document understanding and extraction system. Uses NLP and computer vision to extract structured data from unstructured documents.",
-      tags: ["NLP", "Computer Vision", "FastAPI", "React", "MongoDB"],
-      category: "AI & Automation",
-      features: [
-        "OCR with context understanding",
-        "Entity recognition and linking",
-        "Template learning system",
-        "Validation workflow engine",
-      ],
-    },
-  ];
+const projects = [
+  {
+    title: "Adaptive AI Model Risk Governance (LLM-RAG) — MVP v3",
+    description:
+      "An anonymized, policy-driven governance MVP that evaluates LLM outputs for groundedness, hallucination, prompt-injection, PII, and latency risks. Uses configurable weights and auto-actions to support privacy-safe governance without exposing client data.",
+    tags: ["Python", "FastAPI", "RAG", "SQLite", "React", "Risk Scoring"],
+    category: "AI Governance & Responsible AI",
+    features: [
+      "Configurable policy weights and automated actions (freeze, ticket, notify)",
+      "Composite risk bands with contributor breakdowns",
+      "Evaluator for recall/coverage/citation correctness (RAG)",
+      "Retriever drift monitor (Recall@k over time)",
+      "Hash-chained evidence logs for auditability",
+      "Lightweight HTML dashboard for visibility"
+    ],
+  },
+  {
+    title: "Sales Forecasting & Uplift Modeling — AI/ML Capstone",
+    description:
+      "Capstone project (PGP in AI/ML) delivering an end-to-end pipeline for sales forecasting and campaign impact analysis. The solution emphasizes explainability and governance—clean feature engineering, train/validation split discipline, and traceable metrics.",
+    tags: ["Python", "Pandas", "scikit-learn", "XGBoost", "Explainability"],
+    category: "Applied Machine Learning",
+    features: [
+      "Data cleaning, leakage checks, and robust feature engineering",
+      "Modeling for demand forecasting and campaign uplift",
+      "Cross-validation with reproducible pipelines",
+      "Explainability (feature importance / SHAP-style insights)",
+      "Governance artifacts: model card, metrics log, and run notes"
+    ],
+  },
+  {
+    title: "RIA — Risk Impact Assessment (Agile Lifecycle)",
+    description:
+      "An agile, privacy-safe assessment approach to calculate project risk during development, produce progress reports, and track open risks to closure. Focuses on control ownership, mitigation or risk acceptance, and auditable decisions prior to release.",
+    tags: ["GRC", "Risk Scoring", "Agile", "Dashboards", "Workflows"],
+    category: "Risk & Governance",
+    features: [
+      "Lightweight questionnaires mapped to control categories",
+      "Quantified risk scoring with thresholds and watchlists",
+      "Progress reports and risk aging views",
+      "Mitigation vs. risk acceptance workflow with approvals",
+      "Exportable evidence trail for audits and sign-offs"
+    ],
+  },
+  {
+    title: "QRCA/QRSA — Quick Regulatory & Risk Self-Assessment",
+    description:
+      "A self-assessment toolkit to benchmark posture against key regulations and internal baselines without disclosing sensitive information. Produces prioritized gaps and control recommendations to accelerate remediation sprints.",
+    tags: ["Compliance", "Assessment", "Python", "FastAPI", "SQLite"],
+    category: "Compliance & Assurance",
+    features: [
+      "Adaptive questionnaires aligned to MAS TRM/FEAT, GDPR, NZ IPP (non-exhaustive)",
+      "Category weights and criticality thresholds",
+      "Gap analysis with recommended controls and quick-wins",
+      "Evidence capture and export (CSV/PDF) for audits",
+      "Action roadmap with owners and target dates"
+    ],
+  },
+];
 
   return (
     <div className="min-h-screen pt-24 pb-20">
@@ -86,8 +71,8 @@ const Projects = () => {
         <div className="text-center mb-16">
           <h1 className="mb-6">Projects</h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Showcase of AI, machine learning, and risk management solutions. Each project demonstrates 
-            expertise in building scalable, production-ready systems.
+            Portfolio focused on AI Governance, Applied ML, and Risk & Compliance tooling. 
+            Descriptions are privacy-safe and high-level to honor confidentiality while highlighting measurable outcomes and governance rigor.
           </p>
         </div>
 

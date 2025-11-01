@@ -30,17 +30,17 @@ const Home = () => {
 
   const featuredProjects = [
     {
-      title: "AIG (Singapore, APAC) – Responsible AI & Governance Framework",
+      title: "Responsible AI & Governance Framework",
       description: "Designed and implemented an AI governance and risk monitoring framework across regional business units, improving regulatory audit readiness by 20%.",
       tags: ["AI Governance", "Model Risk", "Regulatory Compliance"],
     },
     {
-      title: "Lloyds Banking Group (UK) – IT Resilience & Continuity Uplift",
+      title: "IT Resilience & Continuity Uplift",
       description: "Enhanced enterprise resilience posture and optimized continuity planning, achieving a 15% reduction in recovery time across critical systems.",
       tags: ["BCP/DR", "IT Resilience", "Risk Oversight"],
     },
     {
-      title: "ING Belgium – SOX & GDPR Compliance Governance Program",
+      title: "IT Risk Management, SOX & GDPR Compliance Governance Program",
       description: "Directed compliance governance across 15+ banking platforms, lowering enterprise risk score from 3.1 to 1.9 and reducing audit findings by 80%.",
       tags: ["SOX", "GDPR", "Control Testing"],
     },
@@ -81,7 +81,7 @@ const Home = () => {
           }}
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="mb-6 leading-tight bg-gradient-hero bg-clip-text text-transparent animate-fade-in text-5xl md:text-6xl font-semibold">
+          <h1 className="mb-6 leading-tight bg-gradient-hero bg-clip-text text-transparent animate-fade-in text-5xl md:text-6xl font-semibold line-height: 1.25 padding-bottom: 4px">
             Prakash Sarangi
           </h1>
 

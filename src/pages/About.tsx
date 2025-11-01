@@ -2,27 +2,27 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Award, Briefcase, GraduationCap, Target } from "lucide-react";
 
 const About = () => {
-  const highlights = [
-    {
-      icon: Briefcase,
-      title: "Professional Experience",
-      description: "Extensive experience in software engineering with focus on AI and ML systems",
-    },
-    {
-      icon: GraduationCap,
-      title: "Technical Expertise",
-      description: "Deep knowledge in machine learning, neural networks, and risk analytics",
-    },
-    {
-      icon: Target,
-      title: "Strategic Approach",
-      description: "Combining technical excellence with business strategy and risk management",
-    },
-    {
-      icon: Award,
-      title: "Innovation Focus",
-      description: "Committed to developing cutting-edge solutions in AI and enterprise systems",
-    },
+const highlights = [
+  {
+    icon: Briefcase,
+    title: "AI Governance & Model Risk",
+    description: "Designed and operationalized AI governance and risk controls across APAC and EU programs, establishing accountability, documentation and monitoring standards."
+  },
+  {
+    icon: GraduationCap,
+    title: "Technology Risk & Compliance",
+    description: "Led SOX/GDPR control assurance and 2LoD oversight; improved audit readiness and reduced findings through structured testing and remediation."
+  },
+  {
+    icon: Target,
+    title: "Resilience & BCP/DR",
+    description: "Defined RTO/RPO targets and uplifted continuity strategies; strengthened operational resilience for business-critical platforms."
+  },
+  {
+    icon: Award,
+    title: "Consulting Outcomes",
+    description: "Governance maturity uplift, fewer audit issues, clearer control ownership, and regulator-ready evidence trails that scale with enterprise AI."
+  },
   ];
 
   return (
@@ -32,7 +32,8 @@ const About = () => {
         <div className="text-center mb-16">
           <h1 className="mb-6">About Me</h1>
           <p className="text-xl text-muted-foreground">
-            Software Engineer specializing in Artificial Intelligence and Risk Management
+            AI Governance, Responsible AI & IT Risk Consultant — advising enterprises on operationalizing Responsible AI, 
+            strengthening technology risk controls, and improving audit & regulatory readiness.
           </p>
         </div>
 
@@ -43,19 +44,21 @@ const About = () => {
               <h2 className="mb-6 text-primary">Professional Summary</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  I am a software engineer with a strong focus on artificial intelligence, machine learning, 
-                  and risk management systems. My work centers on developing innovative solutions that bridge 
-                  the gap between cutting-edge AI technology and practical business applications.
+                  I help organizations build trustworthy, compliant, and audit-ready AI systems. 
+                  With 18+ years across BFSI and FinTech, my work centers on AI governance frameworks, 
+                  model risk controls, regulatory alignment, and technology risk oversight across global programs.
                 </p>
                 <p>
-                  With expertise spanning machine learning, deep learning, and enterprise risk management, 
-                  I specialize in creating robust, scalable systems that help organizations leverage AI for 
-                  strategic decision-making and operational excellence.
+                  I design and operationalize Responsible AI practices—
+                  lifecycle governance, accountability, documentation, explainability, 
+                  and monitoring—aligned to MAS FEAT, GDPR, China TC260, New Zealand IPP, and the Korea AI Act, 
+                  while partnering with security, data, and audit functions for measurable risk reduction.
                 </p>
                 <p>
-                  My approach combines technical depth with strategic thinking, ensuring that solutions not 
-                  only meet immediate requirements but also align with long-term business objectives and 
-                  regulatory compliance needs.
+                  My consulting approach is outcome-driven: uplift governance maturity, reduce audit findings, 
+                  tighten resilience (BCP/DR), and establish clear lines of control ownership and evidence. 
+                  The result is AI that scales responsibly—with documentation, traceability, and controls 
+                  that stand up to regulatory and independent audit scrutiny.
                 </p>
               </div>
             </CardContent>
@@ -85,43 +88,43 @@ const About = () => {
               <h2 className="mb-6 text-primary">Technical Competencies</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div>
-                  <h3 className="text-lg mb-3 font-semibold">Artificial Intelligence</h3>
+                  <h3 className="text-lg mb-3 font-semibold">AI Governance & Responsible AI</h3>
                   <ul className="space-y-2 text-muted-foreground">
-                    <li>• Machine Learning & Deep Learning</li>
-                    <li>• Natural Language Processing</li>
-                    <li>• Computer Vision</li>
-                    <li>• Reinforcement Learning</li>
-                    <li>• Neural Network Architectures</li>
+                    <li>• AI lifecycle controls & accountability</li>
+                    <li>• Policy, usage standards & documentation</li>
+                    <li>• Explainability, traceability & monitoring</li>
+                    <li>• Model risk scoring & review workflows</li>
+                    <li>• MAS FEAT, GDPR, TC260, NZ IPP, Korea AI Act</li>
                   </ul>
                 </div>
                 <div>
-                  <h3 className="text-lg mb-3 font-semibold">Risk Management</h3>
+                  <h3 className="text-lg mb-3 font-semibold">Technology Risk & Compliance</h3>
                   <ul className="space-y-2 text-muted-foreground">
-                    <li>• Risk Assessment & Analysis</li>
-                    <li>• Predictive Risk Modeling</li>
-                    <li>• Compliance Frameworks</li>
-                    <li>• Data Security & Privacy</li>
-                    <li>• Strategic Risk Planning</li>
+                    <li>• SOX/GDPR control design & testing</li>
+                    <li>• 2LoD oversight & risk monitoring</li>
+                    <li>• Audit readiness & evidence management</li>
+                    <li>• Data protection, privacy & security controls</li>
+                    <li>• Issue remediation & governance reporting</li>
                   </ul>
                 </div>
                 <div>
-                  <h3 className="text-lg mb-3 font-semibold">Software Engineering</h3>
+                  <h3 className="text-lg mb-3 font-semibold">Resilience & Continuity (BCP/DR)</h3>
                   <ul className="space-y-2 text-muted-foreground">
-                    <li>• Full-Stack Development</li>
-                    <li>• System Architecture Design</li>
-                    <li>• Cloud Infrastructure (AWS, Azure)</li>
-                    <li>• Database Management</li>
-                    <li>• API Design & Integration</li>
+                    <li>• RTO/RPO definition & strategy</li>
+                    <li>• Continuity playbooks & recovery testing</li>
+                    <li>• Operational resilience uplift</li>
+                    <li>• Crisis & incident response alignment</li>
+                    <li>• Regulatory evidence & metrics</li>
                   </ul>
                 </div>
                 <div>
-                  <h3 className="text-lg mb-3 font-semibold">Tools & Technologies</h3>
+                  <h3 className="text-lg mb-3 font-semibold">Platforms, Tools & Engineering</h3>
                   <ul className="space-y-2 text-muted-foreground">
-                    <li>• Python, JavaScript, Java</li>
-                    <li>• TensorFlow, PyTorch, Scikit-learn</li>
-                    <li>• React, Node.js, FastAPI</li>
-                    <li>• Docker, Kubernetes</li>
-                    <li>• PostgreSQL, MongoDB</li>
+                    <li>• ServiceNow GRC, Archer, Jira</li>
+                    <li>• Python, FastAPI; data & model pipelines</li>
+                    <li>• Cloud & infra: AWS (governance focus)</li>
+                    <li>• Analytics & reporting automation</li>
+                    <li>• Documentation & control repositories</li>
                   </ul>
                 </div>
               </div>
@@ -136,15 +139,17 @@ const About = () => {
               <h2 className="mb-6 text-primary">Professional Focus</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  My current work focuses on developing intelligent systems that enhance decision-making 
-                  capabilities while managing associated risks. This includes building machine learning 
-                  models for predictive analytics, creating automated risk assessment platforms, and 
-                  implementing AI-driven compliance monitoring systems.
+                  I focus on translating Responsible AI principles into operational practice—policies, 
+                  roles, controls, and repeatable workflows. 
+                  This includes establishing governance councils and playbooks, embedding documentation 
+                  and model cards, enabling monitoring and issue management, and aligning AI programs 
+                  with enterprise risk, security, and audit lines of defense.
                 </p>
                 <p>
-                  I am particularly interested in the intersection of artificial intelligence and enterprise 
-                  risk management, where advanced ML techniques can provide unprecedented insights into 
-                  complex risk scenarios and enable proactive mitigation strategies.
+                  Typical engagements include AI governance operating model design, control mapping to regulations, 
+                  model risk reviews, SOX/GDPR alignment, resilience uplift (BCP/DR), audit preparation, and evidence readiness. 
+                  The objective is consistent: measurable governance maturity, fewer audit exceptions, 
+                  and AI systems that scale responsibly with clear accountability.
                 </p>
               </div>
             </CardContent>

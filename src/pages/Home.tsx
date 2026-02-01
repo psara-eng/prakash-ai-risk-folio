@@ -12,19 +12,19 @@ const Home = () => {
   const skills = [
     { 
       title: "AI Governance & Responsible AI", 
-      description: "Establishing AI lifecycle controls, accountability structures, documentation standards, and risk scoring aligned to MAS FEAT, GDPR, TC260, NZ IPP, and Korea AI Act."
+      description: "Designing AI lifecycle governance frameworks covering model risk, accountability, documentation, and oversight — aligned to global regulatory and ethical expectations and embedded into existing enterprise risk structures."
     },
     { 
-      title: "Technology Risk & Compliance Management", 
-      description: "Designing and assessing IT control environments, SOX/GDPR compliance, risk mitigation frameworks, and governance assurance models."
+      title: "Technology Risk & GRC", 
+      description: "Leading technology risk assessments, control design, and GRC operating models across regulated environments, including SOX, GDPR, NIST and enterprise risk integration."
     },
     { 
-      title: "Business Continuity & IT Resilience (BCP/DR)", 
-      description: "Defining RTO/RPO objectives, uplifting continuity strategies, and strengthening enterprise resilience and recovery capability."
+      title: "Operational Resilience & IT Continuity", 
+      description: "Strengthening enterprise resilience through business continuity, disaster recovery, and operational risk controls aligned to regulatory and audit expectations."
     },
     { 
-      title: "Regulatory & Audit Readiness Consulting", 
-      description: "Preparing teams and systems for regulatory reviews, evidence preparation, external audits, and compliance maturity uplift."
+      title: "Regulatory & Audit Readiness", 
+      description: "Supporting organizations through regulatory reviews, audits, and supervisory engagements by translating requirements into defensible controls and evidence."
     },
   ];
 
@@ -107,7 +107,8 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-16">
           <h2 className="mb-4 text-3xl font-semibold">Core Consulting Areas</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Advisory, governance, and oversight at the intersection of AI systems, regulatory obligations, and enterprise technology risk.
+            Advisory and delivery at the intersection of AI governance, technology risk, and enterprise control frameworks,  
+            focused on helping organizations move from policy to practice.
           </p>
         </div>
 

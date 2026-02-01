@@ -71,7 +71,7 @@ const projects = [
         <div className="text-center mb-16">
           <h1 className="mb-6">Projects</h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Portfolio focused on AI Governance, Applied ML, and Risk & Compliance tooling. 
+            Portfolio of selected work across AI Governance, Applied ML, and Technology Risk & Compliance. 
             Descriptions are privacy-safe and high-level to honor confidentiality while highlighting measurable outcomes and governance rigor.
           </p>
         </div>
@@ -113,7 +113,7 @@ const projects = [
                   ))}
                 </div>
 
-                {/* Action Buttons */}
+                {/* Action Buttons
                 <div className="flex gap-3">
                   <Button variant="outline" size="sm" className="flex-1">
                     <Github className="mr-2 h-4 w-4" />
@@ -124,6 +124,7 @@ const projects = [
                     Live Demo
                   </Button>
                 </div>
+                */}  
               </CardContent>
             </Card>
           ))}

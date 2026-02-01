@@ -11,7 +11,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Prakash Sarangi</h3>
             <p className="text-muted-foreground text-sm">
-              Software Engineer specializing in Artificial Intelligence, Machine Learning, and Risk Management.
+              AI Governance & Technology Risk | Responsible AI | Enterprise Risk & GRC
             </p>
           </div>
 
@@ -55,6 +55,7 @@ const Footer = () => {
               >
                 <Linkedin className="h-6 w-6" />
               </a>
+              {/*
               <a
                 href="https://github.com"
                 target="_blank"
@@ -64,6 +65,7 @@ const Footer = () => {
               >
                 <Github className="h-6 w-6" />
               </a>
+              */}
               <a
                 href="/contact"
                 className="text-muted-foreground hover:text-primary transition-colors"

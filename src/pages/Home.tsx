@@ -201,7 +201,7 @@ const Home = () => {
             If your organization is scaling AI or preparing for regulatory review, I provide advisory support across: 
             AI governance frameworks, technology risk and compliance assessments, resilience modernization, and audit evidence readiness.
           </p>
-          <Link to="/contact"><Button size="lg">Request Consultation <ArrowRight className="ml-2 h-4 w-4" /></Button></Link>
+          <Link to="/contact"><Button size="lg">Connect with me <ArrowRight className="ml-2 h-4 w-4" /></Button></Link>
         </div>
       </section>
     </div>

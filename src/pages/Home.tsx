@@ -4,10 +4,11 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight, Mail, BookOpen } from "lucide-react";
 import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-bg.jpg";
+{/*
 import aiTrendsImg from "@/assets/blog-ai-trends.jpg";
 import riskMgmtImg from "@/assets/blog-risk-management.jpg";
 import mlImg from "@/assets/blog-machine-learning.jpg";
-
+*/}
 const Home = () => {
   const skills = [
     { 

@@ -155,7 +155,9 @@ const Contact = () => {
                         rel="noopener noreferrer"
                         className="text-primary hover:underline text-sm"
                       >*/}
-                        Selected work is shared where relevant to specific conversations.
+                        <p className="text-muted-foreground text-sm">  
+                          Selected work is shared where relevant to specific conversations.
+                        </p>
                       {/*</a>*/}
                     </div>
                   </div>

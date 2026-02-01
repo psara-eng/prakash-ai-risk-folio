@@ -156,7 +156,7 @@ const Contact = () => {
                         className="text-primary hover:underline text-sm"
                       >*/}
                         Selected work is shared where relevant to specific conversations.
-                      </a>
+                      {/*</a>*/}
                     </div>
                   </div>
                 </div>

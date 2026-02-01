@@ -92,7 +92,9 @@ const highlights = [
                 <CardContent className="p-6">
                   <highlight.icon className="h-10 w-10 text-primary mb-4" />
                   <h3 className="text-xl mb-3">{highlight.title}</h3>
-                  <p className="text-muted-foreground">{highlight.description}</p>
+                 <p className="text-muted-foreground whitespace-pre-line">
+                   {highlight.description}
+                 </p>
                 </CardContent>
               </Card>
             ))}

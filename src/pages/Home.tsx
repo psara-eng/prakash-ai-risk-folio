@@ -86,13 +86,13 @@ const Home = () => {
           </h1>
 
           <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-            AI Governance, Responsible AI & IT Risk Consultant
+            AI Governance & Technology Risk Leader
           </p>
 
           <p className="text-lg text-muted-foreground mb-10 max-w-2xl mx-auto">
-            I help organizations build trustworthy, compliant, and audit-ready AI systems. 
-            With 18+ years across BFSI and FinTech, I advise enterprises on operationalizing Responsible AI, 
-            maturing risk and governance frameworks, and strengthening regulatory and audit readiness across global markets.
+            I help enterprises adopt AI responsibly by embedding governance, technology risk, and regulatory controls into real-world operating models. 
+            With 19+ years in client-facing roles across enterprise technology risk and GRC, 
+            I work closely with business, technology, and risk leaders to build audit-ready, accountable, and scalable AI programs.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

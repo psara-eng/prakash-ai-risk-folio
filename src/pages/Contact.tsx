@@ -53,8 +53,8 @@ const Contact = () => {
         <div className="text-center mb-16">
           <h1 className="mb-6">Get In Touch</h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Interested in collaboration, consulting, or just want to discuss AI and technology? 
-            I'd love to hear from you.
+            Interested in collaborating, exploring a consulting engagement, or simply exchanging perspectives on AI, risk, and technology? 
+            I am always happy to connect.
           </p>
         </div>
 
@@ -127,7 +127,7 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Email</h3>
                       <p className="text-muted-foreground text-sm">
-                        Prefer email? Use the contact form and I'll respond promptly.
+                        Prefer email? Use the contact form and I'll respond directly.
                       </p>
                     </div>
                   </div>
@@ -136,7 +136,7 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold mb-1">LinkedIn</h3>
                       <a
-                        href="https://linkedin.com"
+                        href="www.linkedin.com/in/prakash-sarangi-160a26118"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-primary hover:underline text-sm"
@@ -149,13 +149,13 @@ const Contact = () => {
                     <Github className="h-6 w-6 text-primary mt-1" />
                     <div>
                       <h3 className="font-semibold mb-1">GitHub</h3>
-                      <a
+                      {/*<a
                         href="https://github.com"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-primary hover:underline text-sm"
-                      >
-                        View my repositories
+                      >*/}
+                        Selected work is shared where relevant to specific conversations.
                       </a>
                     </div>
                   </div>
@@ -167,11 +167,11 @@ const Contact = () => {
               <CardContent className="p-8">
                 <h3 className="text-xl mb-4">Professional Services</h3>
                 <ul className="space-y-3 text-muted-foreground">
-                  <li>• AI & Machine Learning Consulting</li>
-                  <li>• Risk Management Strategy</li>
-                  <li>• Software Architecture Design</li>
-                  <li>• Technical Advisory</li>
-                  <li>• Workshop & Training Sessions</li>
+                  <li>• AI Governance & Responsible AI advisory</li>
+                  <li>• Technology & Enterprise Risk strategy</li>
+                  <li>• Architecture and control design for AI-enabled platforms</li>
+                  <li>• Regulatory, audit, and risk advisory</li>
+                  <li>• Executive workshops and enablement sessions</li>
                 </ul>
               </CardContent>
             </Card>
@@ -181,10 +181,10 @@ const Contact = () => {
                 <h3 className="text-xl mb-4">Response Time</h3>
                 <p className="text-muted-foreground mb-4">
                   I typically respond to inquiries within 24-48 hours during business days. 
-                  For urgent matters, please mention it in your message.
+                  For urgent matters, please message me on LinkedIn.
                 </p>
                 <p className="text-sm text-muted-foreground">
-                  All contact form submissions are secure and confidential.
+                  All contact form submissions are treated as confidential.
                 </p>
               </CardContent>
             </Card>

@@ -159,7 +159,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Blog Section */}
+      {/* Blog Section
       <section className="py-20 bg-gradient-accent">
         <div className="text-center mb-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="mb-4 text-3xl font-semibold">Latest Insights & Thought Leadership</h2>
@@ -190,7 +190,8 @@ const Home = () => {
           <Link to="/blog"><Button variant="outline" size="lg">View All Posts <ArrowRight className="ml-2 h-4 w-4" /></Button></Link>
         </div>
       </section>
-
+      */}
+      
       {/* CTA Section */}
       <section className="py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

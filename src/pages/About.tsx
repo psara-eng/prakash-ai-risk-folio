@@ -5,25 +5,44 @@ const About = () => {
 const highlights = [
   {
     icon: Briefcase,
-    title: "AI Governance & Model Risk",
-    description: "Designed and operationalized AI governance and risk controls across APAC and EU programs, establishing accountability, documentation and monitoring standards."
+    title: "AI Governance & Responsible AI",
+    description: `
+• Design and implement AI governance frameworks covering the full AI lifecycle
+• Establish accountability models, governance councils, and decision workflows
+• Operationalize documentation, model cards, explainability, and monitoring
+• Align controls with MAS FEAT, GDPR, China TC260, New Zealand IPP, and the Korea AI Act
+`.trim(),
   },
   {
     icon: GraduationCap,
     title: "Technology Risk & Compliance",
-    description: "Led SOX/GDPR control assurance and 2LoD oversight; improved audit readiness and reduced findings through structured testing and remediation."
+    description: `
+• Lead SOX and GDPR control design, testing, and remediation programs
+• Provide 2LoD oversight, risk monitoring, and audit readiness support
+• Strengthen evidence management, issue tracking, and governance reporting
+• Partner with security and privacy teams to embed controls into delivery
+`.trim(),
   },
   {
     icon: Target,
     title: "Resilience & BCP/DR",
-    description: "Defined RTO/RPO targets and uplifted continuity strategies; strengthened operational resilience for business-critical platforms."
+    description: `
+• Define RTO/RPO objectives and continuity strategies
+• Uplift operational resilience for business-critical platforms
+• Support recovery testing, crisis response alignment, and regulatory evidence
+`.trim(),
   },
   {
     icon: Award,
     title: "Consulting Outcomes",
-    description: "Governance maturity uplift, fewer audit issues, clearer control ownership, and regulator-ready evidence trails that scale with enterprise AI."
+    description: `
+• Improved AI and technology governance maturity
+• Reduced audit findings and clearer control ownership
+• Regulator-ready documentation and defensible evidence trails
+• AI systems that scale responsibly with transparency and accountability
+`.trim(),
   },
-  ];
+];
 
   return (
     <div className="min-h-screen pt-24 pb-20">
@@ -32,8 +51,12 @@ const highlights = [
         <div className="text-center mb-16">
           <h1 className="mb-6">About Me</h1>
           <p className="text-xl text-muted-foreground">
-            AI Governance, Responsible AI & IT Risk Consultant — advising enterprises on operationalizing Responsible AI, 
-            strengthening technology risk controls, and improving audit & regulatory readiness.
+            I am an AI Governance and Technology Risk professional with 19+ years of experience advising enterprises across 
+            BFSI and FinTech on Responsible AI, technology risk management, and regulatory readiness.
+          </p>
+          <p className="text-xl text-muted-foreground">
+            My work focuses on helping organizations design, operationalize, and sustain governance frameworks that allow 
+            AI and emerging technologies to scale responsibly while meeting regulatory, audit, and accountability expectations.
           </p>
         </div>
 
@@ -44,21 +67,16 @@ const highlights = [
               <h2 className="mb-6 text-primary">Professional Summary</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  I help organizations build trustworthy, compliant, and audit-ready AI systems. 
-                  With 18+ years across BFSI and FinTech, my work centers on AI governance frameworks, 
-                  model risk controls, regulatory alignment, and technology risk oversight across global programs.
+                  I support global enterprises in building trustworthy, compliant, and audit-ready AI systems by integrating 
+                  AI governance, model risk controls, and technology risk oversight into existing enterprise risk and GRC environments.
                 </p>
                 <p>
-                  I design and operationalize Responsible AI practices—
-                  lifecycle governance, accountability, documentation, explainability, 
-                  and monitoring—aligned to MAS FEAT, GDPR, China TC260, New Zealand IPP, and the Korea AI Act, 
-                  while partnering with security, data, and audit functions for measurable risk reduction.
+                  My experience spans AI governance operating models, model risk management, SOX/GDPR assurance, and resilience (BCP/DR), 
+                  working closely with business, data, security, and audit stakeholders across first and second lines of defense.
                 </p>
                 <p>
-                  My consulting approach is outcome-driven: uplift governance maturity, reduce audit findings, 
-                  tighten resilience (BCP/DR), and establish clear lines of control ownership and evidence. 
-                  The result is AI that scales responsibly—with documentation, traceability, and controls 
-                  that stand up to regulatory and independent audit scrutiny.
+                  I specialize in translating Responsible AI principles into operational controls—clear policies, defined roles, 
+                  lifecycle governance, documentation standards, monitoring mechanisms, and regulator-ready evidence.
                 </p>
               </div>
             </CardContent>
@@ -139,11 +157,9 @@ const highlights = [
               <h2 className="mb-6 text-primary">Professional Focus</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  I focus on translating Responsible AI principles into operational practice—policies, 
-                  roles, controls, and repeatable workflows. 
-                  This includes establishing governance councils and playbooks, embedding documentation 
-                  and model cards, enabling monitoring and issue management, and aligning AI programs 
-                  with enterprise risk, security, and audit lines of defense.
+                  My focus is on making governance work in practice, not as theory.
+                  That means embedding Responsible AI and technology risk controls into day-to-day delivery 
+                  so they stand up to regulatory scrutiny, internal audit, and real-world operational pressure.
                 </p>
                 <p>
                   Typical engagements include AI governance operating model design, control mapping to regulations, 

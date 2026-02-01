@@ -47,6 +47,7 @@ const Home = () => {
     },
   ];
 
+  {/*
   const blogPosts = [
     {
       title: "The Future of AI in Risk Management",
@@ -67,6 +68,7 @@ const Home = () => {
       slug: "neural-architecture",
     },
   ];
+  */}
 
   return (
     <div className="min-h-screen">

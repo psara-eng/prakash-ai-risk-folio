@@ -66,13 +66,13 @@ const Footer = () => {
                 <Github className="h-6 w-6" />
               </a>
               */}
-              <a
-                href="/contact"
+             <a
+                href="mailto:prakash.sarangi@zohomail.in"
                 className="text-muted-foreground hover:text-primary transition-colors"
                 aria-label="Email"
               >
                 <Mail className="h-6 w-6" />
-              </a>
+             </a>
             </div>
           </div>
         </div>

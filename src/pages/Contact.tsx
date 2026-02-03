@@ -136,7 +136,7 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold mb-1">LinkedIn</h3>
                       <a
-                        href="www.linkedin.com/in/prakash-sarangi-160a26118"
+                        href="https://www.linkedin.com/in/prakash-sarangi-160a26118"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-primary hover:underline text-sm"

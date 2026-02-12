@@ -75,7 +75,7 @@ const highlights = [
                   working closely with business, data, security, and audit stakeholders across first and second lines of defense.
                 </p>
                 <p>
-                  I specialize in translating Responsible AI principles into operational controls—clear policies, defined roles, 
+                  I specialize in translating Responsible AI principles into operational controls such as clear policies, defined roles, 
                   lifecycle governance, documentation standards, monitoring mechanisms, and regulator-ready evidence.
                 </p>
               </div>
